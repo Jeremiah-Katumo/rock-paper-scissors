@@ -1,0 +1,61 @@
+html {
+    font-size: 20px;
+    background: url(images/paperBackground.jpg);
+    background-size: 100% 100%;
+    font-family: 'Gloria Hallelujah', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+h1 {
+    color: royalblue;
+    font-weight: 900;
+}
+
+.btn {
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    outline: none;
+}
+
+.btn:hover, .btn:focus {
+    transform: scale(1.2);
+    border-color: goldenrod;
+}
+
+img {
+    width: 125px;
+    height: 150px;
+}
+
+.text-output {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.text {
+    margin: 45px;
+}
+
+#output {
+    font-size: 45px;
+}
+
+footer {
+    background-color: gray;
+    color: goldenrod;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
